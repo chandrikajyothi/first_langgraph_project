@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual envs
+.venv/
+venv/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+
+# Env & secrets
+.env
+.env.*.local
+*.env
+*.key
+*.pem
+.streamlit/secrets.toml
+
+# Cache / logs
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Uvicorn reload artifacts
+*.pid
+
+# Streamlit
+.streamlit/*.json

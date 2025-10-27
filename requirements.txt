@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+streamlit
+langgraph
+google-generativeai
+pydantic
+python-dotenv
+httpx
+typing-extensions
